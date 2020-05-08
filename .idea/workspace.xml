@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93d85d06-1e63-4311-b120-aa3426192ff7" name="Default Changelist" comment="" />
+    <list default="true" id="93d85d06-1e63-4311-b120-aa3426192ff7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_postone.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_postone.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcase/test_postone.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="362">
+              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
                 <element signature="e#14#29#0" expanded="true" />
               </folding>
@@ -31,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -41,11 +48,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="428" />
-    <option name="y" value="163" />
+    <option name="x" value="719" />
+    <option name="y" value="201" />
     <option name="width" value="1346" />
     <option name="height" value="859" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -71,7 +79,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloudlight" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -86,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_postone.py">
+  <component name="RunManager" selected="Python tests.pytest for test_postone.Testwww">
     <configuration name="pytest for test_one.test_answer" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="testwww" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,6 +123,36 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_postone.Testnew&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_postone.Testnew.test_post" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="testwww" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_postone.Testnew.test_post&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_postone.Testwww" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="testwww" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_postone.Testwww&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -149,7 +188,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_postone.Testwww" />
         <item itemvalue="Python tests.pytest in test_postone.py" />
+        <item itemvalue="Python tests.pytest for test_postone.Testnew.test_post" />
         <item itemvalue="Python tests.pytest for test_postone.Testnew" />
         <item itemvalue="Python tests.pytest in test_one.py" />
       </list>
@@ -169,39 +210,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_one_test_answer - 2020.04.29 at 15h 03m 06s.xml">
-      <configuration name="pytest for test_one.test_answer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_one_test_answer - 2020.04.29 at 15h 05m 34s.xml">
-      <configuration name="pytest for test_one.test_answer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_one_test_answer - 2020.04.29 at 15h 08m 37s.xml">
-      <configuration name="pytest for test_one.test_answer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_one_py - 2020.04.29 at 15h 10m 45s.xml">
-      <configuration name="pytest in test_one.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_postone_py - 2020.04.29 at 15h 13m 45s.xml">
+    <history-entry file="pytest_in_test_postone_py - 2020.05.06 at 14h 40m 34s.xml">
       <configuration name="pytest in test_postone.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_postone_py - 2020.04.29 at 15h 29m 40s.xml">
+    <history-entry file="pytest_in_test_postone_py - 2020.05.06 at 14h 42m 28s.xml">
       <configuration name="pytest in test_postone.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_one_test_answer - 2020.04.29 at 15h 29m 57s.xml">
-      <configuration name="pytest for test_one.test_answer" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_postone_py - 2020.04.29 at 15h 34m 03s.xml">
+    <history-entry file="pytest_in_test_postone_py - 2020.05.06 at 14h 43m 11s.xml">
       <configuration name="pytest in test_postone.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_postone_py - 2020.04.29 at 15h 37m 23s.xml">
+    <history-entry file="pytest_for_test_postone_Testnew_test_post - 2020.05.06 at 14h 43m 29s.xml">
+      <configuration name="pytest for test_postone.Testnew.test_post" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_postone_py - 2020.05.08 at 09h 34m 20s.xml">
       <configuration name="pytest in test_postone.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_postone_py - 2020.04.29 at 15h 41m 39s.xml">
+    <history-entry file="pytest_in_test_postone_py - 2020.05.08 at 15h 08m 11s.xml">
       <configuration name="pytest in test_postone.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_postone_py - 2020.05.08 at 15h 08m 18s.xml">
+      <configuration name="pytest in test_postone.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_postone_py - 2020.05.08 at 17h 04m 48s.xml">
+      <configuration name="pytest in test_postone.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_postone_Testwww - 2020.05.08 at 17h 06m 37s.xml">
+      <configuration name="pytest for test_postone.Testwww" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_postone_Testwww - 2020.05.08 at 17h 07m 00s.xml">
+      <configuration name="pytest for test_postone.Testwww" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="649" y="164" width="1346" height="859" extended-state="0" />
+    <frame x="524" y="194" width="1346" height="859" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24942617" />
@@ -209,7 +250,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37067774" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25104022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -231,13 +272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/test_one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_pytest_runner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -245,10 +279,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/test_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test_postone.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="362">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
             <element signature="e#14#29#0" expanded="true" />
           </folding>

@@ -4,13 +4,19 @@ import logging
 import json
 import pytest
 
-class Testnew(object):
+class Testwww(object):
     logging.basicConfig(level=logging.INFO)
-    def test_post(self):
-        url='http://new1.tencloudnet.com/api.php'
+    url='https://testservice.tencloudnet.com/api.php'
+    def test_login(self):
         d ={
             "username":"admin",
             "password":"angyunding"}
-        r=requests.post(url=url+'/Index/login',data=d)
-        logging.info(json.dumps(r.json(),indent=2))
+        r=requests.post(url=Testwww.url+'/Index/login',data=d)
+        #logging.info(json.dumps(r.json(),indent=2,ensure_ascii=False))
+        uid=r.json()["data"]["uid"]
+        token=r.json()["data"]["token"]
+        assert r.json()["message"] == "登录成功"
+        print(uid,token)
+
+    #def test_onepage(self):
 
